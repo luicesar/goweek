@@ -1,0 +1,64 @@
+ESTUDANDO REACT
+------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+*** Comentarios no meu pc
+* Semana OmniStack -  Estudando React
+executar estes comandos no DOS dentro da pasta do meu projeto
+yarn init -y
+yarn add express ---- express é micro-framework
+
+node .\src\index.js -- comando para iniciar o servidor na porta 3000
+
+yarn add mongoose -- é um ORM pra NodeJS
+yarn add nodemon -D ----- serve pra nao ficar fechando e abrindo servidor quando tem uma nova requisao
+
+yarn start -- comando para iniciar o servidor na porta 3000, depois de instalado o nodemon e configurado o scripts: no arquivo package.json
+
+-- Desenvolvendo o app mobile
+react-native run-android
+
+*** Comentarios no meu pc
+----------------------------------------------------------------------
+**** Comandos GIT - GitHub
+D:\rocketseat>git init
+D:\rocketseat>git clone https://meuusuario@github.com/meuusuario/goweek.git
+D:\rocketseat>git status
+D:\rocketseat\goweek>git add --all
+D:\rocketseat\goweek>git commit -m "Aula-06-02 - Finalizado"
+D:\rocketseat\goweek>git push -- enviar para o GitHub
+D:\rocketseat\goweek>git pull -- baixar do GitHub
+-------------------------------------------------------------------
+
+yarn add mongoose
+yarn add nodemon -D
+yarn add socket.io -- dependencias RealTime
+yarn add cors
+yarn add react-router-dom
+
+yarn global update --- comando serve para instalar as dependencias do react se nao funcionar
+				   --- executa este comando yarn install
+
+-- Construindo a interface web
+create-react-app frontend
+
+D:\rocketseat\goweek\frontend>yarn add axios -- fazer minhas chamadas com http
+D:\rocketseat\goweek\frontend>yarn add socket.io-client
+
+mLab - MondoDB:
+luicesar
+Cesar@0021
+
+-- Desenvolvendo o app mobile
+D:\rocketseat\goweek>react-native init name-projeto
+D:\rocketseat\goweek\mobile>yarn add react-navigation
+D:\rocketseat\goweek\mobile>yarn add react-native-gesture-handler
+D:\rocketseat\goweek\mobile>react-native link react-native-gesture-handler
+D:\rocketseat\goweek\mobile>react-native run-android
+D:\rocketseat\goweek\mobile>react-native start --reset-cache *** caso precise
+D:\rocketseat\goweek\mobile>yarn add react-native-vector-icons
+D:\rocketseat\goweek\mobile>react-native link react-native-vector-icons
+D:\rocketseat\goweek\mobile>yarn add axios
+D:\rocketseat\goweek\mobile> adb reverse tcp:8081 tcp:8081 -- usar apenas quando ta testado emulador = pc => é por causa da api
+D:\rocketseat\goweek\mobile>yarn add socket.io-client
+

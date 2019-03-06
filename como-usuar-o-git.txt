@@ -1,0 +1,7 @@
+D:\rocketseat>git init
+D:\rocketseat>git clone https://meuusuario@github.com/meuusuario/goweek.git
+D:\rocketseat>git status
+D:\rocketseat\goweek>git add --all
+D:\rocketseat\goweek>git commit -m "Aula-06-02 - Finalizado"
+D:\rocketseat\goweek>git push -- enviar para o GitHub
+D:\rocketseat\goweek>git pull -- baixar do GitHub
