@@ -1,4 +1,4 @@
-ESTUDANDO REACT
+﻿ESTUDANDO REACT
 ------------------------------------------------------------------------
 
 --------------------------------------------------------------------
@@ -46,8 +46,6 @@ D:\rocketseat\goweek\frontend>yarn add axios -- fazer minhas chamadas com http
 D:\rocketseat\goweek\frontend>yarn add socket.io-client
 
 mLab - MondoDB:
-luicesar
-Cesar@0021
 
 -- Desenvolvendo o app mobile
 D:\rocketseat\goweek>react-native init name-projeto
